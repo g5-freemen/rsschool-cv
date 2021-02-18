@@ -1,10 +1,11 @@
-## Anton Borkovskij ##
+# Anton Borkovskij #
 
-##### Tel: +375(29)1279490
-##### Email: member@tut.by
-##### Github: [github.com/g5-freemen](https://github.com/g5-freemen)
-##### Linkedin: [linkedin.com/in/anton-borkovskij-097995200/](https://www.linkedin.com/in/anton-borkovskij-097995200/)
-##### Telegram: [t.me/g5-freemen](https://t.me/g5-freemen)
+## Contacts
+* Tel: +375(29)1279490
+* Email: member@tut.by
+* Github: [github.com/g5-freemen](https://github.com/g5-freemen)
+* Linkedin: [linkedin.com/in/anton-borkovskij-097995200/](https://www.linkedin.com/in/anton-borkovskij-097995200/)
+* Telegram: [t.me/g5-freemen](https://t.me/g5-freemen)
 
 ## Objective
 Gain knowledge and experience in the field of front-end development in order to become a promising developer and be a professional in this field.
@@ -35,4 +36,4 @@ function duplicateCount(text){
 
 ## Online learning
 * [learn.javascript.ru](https://learn.javascript.ru/)
-* [Codewars](https://www.codewars.com/)
+* [Codewars](https://www.codewars.com/) ![Codewars](https://www.codewars.com/users/g5-freemen/badges/micro)
