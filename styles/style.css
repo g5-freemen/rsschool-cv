@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+}
+
+.header__avatar {
+    width: 10vmin;
+    height: 10vmin;
+}
+
+.code {
+    width: max-content;
+    background-color: lightgrey;
+    border-radius: 1vw;
+}
+
+.code-title {
+    padding: .5vmax;
+    border: solid 1px;
+    border-radius: 1vw;
+    background-color: rgb(172, 172, 172);
+}
+
+.code-sample {
+    white-space: pre-wrap;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__date {
+    color: darkgray;
+    font-family: monospace;
+    font-weight: bold;
+}
