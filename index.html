@@ -9,113 +9,112 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="container">
+    <header class="header">
+      <span class="header__title">
+        <span class="header__name">Anton Borkovskij</span>
+        <img class="header__photo" src="./img/Anton_photo.jpg" alt="Anton Borkovskij">
+      </span>
+      <h2>Contacts</h2>
 
-        <header class="header">
-            <span class="header__title">
-              <h1 class="header__name">Anton Borkovskij</h1>
-              <img class="header__photo" src="./img/Anton_photo.jpg" alt="Anton Borkovskij">
-            </span>
-              <ul class="header__contacts contacts">
-                <h2>Contacts</h2>
-                <li class="contacts__item">
-                  <span>Tel: </span>
-                  <a class="contacts__tel" href="tel:+375291279490">
-                    <span>+375 (29) 1279490</span>
-                  </a>
-                </li>
-                <li class="contacts__item">
-                  <span>Email: </span>
-                  <a class="contacts__email" href="mailto:member@tut.by">
-                    <span>member@tut.by</span>
-                  </a>
-                </li>
-                <li class="contacts__item">
-                  <span>Github: </span>
-                  <a class="contacts__github" href="https://github.com/g5-freemen">
-                    <span>github.com/g5-freemen</span>
-                  </a>
-                </li>
-                <li class="contacts__item">
-                  <span>Linkedin: </span>
-                  <a class="contacts__linkedin" href="https://www.linkedin.com/in/anton-borkovskij-097995200/">
-                    <span>linkedin.com/in/anton-borkovskij-097995200/</span>
-                  </a>
-                </li>
-                <li class="contacts__item">
-                  <span>Telegram: </span>
-                  <a class="contacts__telegram" href="https://t.me/g5-freemen">
-                    <span>t.me/g5-freemen</span>
-                  </a>
-                </li>
-              </ul>
-        </header>
+      <ul class="header__contacts contacts">
+        <li class="contacts__item">
+          <span>Tel: </span>
+          <a class="contacts__tel" href="tel:+375291279490">
+            <span>+375 (29) 1279490</span>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <span>Email: </span>
+          <a class="contacts__email" href="mailto:member@tut.by">
+            <span>member@tut.by</span>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <span>Github: </span>
+          <a class="contacts__github" href="https://github.com/g5-freemen">
+            <span>github.com/g5-freemen</span>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <span>Linkedin: </span>
+          <a class="contacts__linkedin" href="https://www.linkedin.com/in/anton-borkovskij-097995200/">
+            <span>linkedin.com/in/anton-borkovskij-097995200/</span>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <span>Telegram: </span>
+          <a class="contacts__telegram" href="https://t.me/g5-freemen">
+            <span>t.me/g5-freemen</span>
+          </a>
+        </li>
+      </ul>
+    </header>
 
-        <main class="main">
-            <div class="info">
-              <section class="info__summary">
-                <h2>Objective</h2>
-                <p>Gain knowledge and experience in the field of front-end/JS development to become a junior developer.</p>
-              </section>
-              <section class="info__skills">
-                <h2>Technical Skills</h2>
-                <ul>
-                  <li>HTML5, CSS3, SCSS, JavaScript</li>
-                  <li>Git, GitHub</li>
-                  <li>Parcel, Webpack</li>
-                </ul>
-              </section>
-              <section class="info__code">
-                <fieldset class="code">
-                  <legend class="code-legend">Example of latest code</legend>
-                    <code class="code-sample">
-                    function duplicateCount(text){
-                      if (!text) return 0;
-                      let arr=text.toLowerCase().split('').sort(),
-                          doubles = [];
-                      for (let i=0; i&lt;arr.length-1; i++) {
-                        if (arr[i]===arr[i+1]) doubles.push(arr[i]);
-                      }
-                      return new Set(doubles).size
-                    }</code>
-                </fieldset>
-              </section>
-              <section class="info__education">
-                <h2>Education</h2>
-                <p><b>Courses:</b> TeachMeSkills (Front-End Developer)</p>
-                <p><b>University:</b> Belarusian National Technical University (Mining Engineer)</p>
-                <h3>Online learning</h3>
-                <ul>
-                  <li>
-                    <a href="https://learn.javascript.ru/">
-                      learn.javascript.ru
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.codewars.com/">
-                      codewars.com
-                    </a>
-                    &nbsp;
-                    <img src="https://www.codewars.com/users/g5-freemen/badges/micro" alt="Codewars score">
-                  </li>
-                </ul>
-              </section>
-              <section class="info__languages">
-                <h2>Language skills:</h2>
-                  <ul>
-                    <li>English (B1)</li>
-                    <li>Polish (A1)</li>
-                    <li>Russian (native)</li>
-                  </ul>
-              </section>      
-            </div>
-        </main>
+    <main class="main">
+      <div class="info">
+        <section class="info__summary">
+          <h2>Objective</h2>
+          <p>Gain knowledge and experience in the field of front-end/JS development to become a junior developer.</p>
+        </section>
+        <section class="info__skills">
+          <h2>Technical Skills</h2>
+          <ul>
+            <li>HTML5, CSS3, SCSS, JavaScript</li>
+            <li>Git, GitHub</li>
+            <li>Parcel, Webpack</li>
+          </ul>
+        </section>
+        <section class="info__code">
+          <h3>Code example</h3>
+          <fieldset class="code">
+            <legend class="code-legend">Example of latest code</legend>
+              <code class="code-sample">
+              function duplicateCount(text){
+                if (!text) return 0;
+                let arr=text.toLowerCase().split('').sort(),
+                    doubles = [];
+                for (let i=0; i&lt;arr.length-1; i++) {
+                  if (arr[i]===arr[i+1]) doubles.push(arr[i]);
+                }
+                return new Set(doubles).size
+              }</code>
+          </fieldset>
+        </section>
+        <section class="info__education">
+          <h2>Education</h2>
+          <p><b>Courses:</b> TeachMeSkills (Front-End Developer)</p>
+          <p><b>University:</b> Belarusian National Technical University (Mining Engineer)</p>
+          <h3>Online learning</h3>
+          <ul>
+            <li>
+              <a href="https://learn.javascript.ru/">
+                learn.javascript.ru
+              </a>
+            </li>
+            <li>
+              <a href="https://www.codewars.com/">
+                codewars.com
+              </a>
+              &nbsp;
+              <img src="https://www.codewars.com/users/g5-freemen/badges/micro" alt="Codewars score">
+            </li>
+          </ul>
+        </section>
+        <section class="info__languages">
+          <h2>Language skills:</h2>
+            <ul>
+              <li>English (B1)</li>
+              <li>Polish (A1)</li>
+              <li>Russian (native)</li>
+            </ul>
+        </section>      
+      </div>
+    </main>
 
-        <footer class="footer">
-          <span class="footer__date">2021</span>
-        </footer>
+    <footer class="footer">
+      <span class="footer__date">2021</span>
+    </footer>
 
-    </div> <!-- End of .container -->
   </div> <!-- End of .wrapper -->
 </body>
 </html>

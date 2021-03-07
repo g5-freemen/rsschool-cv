@@ -4,14 +4,10 @@ body {
 }
 
 .wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.container {
+    max-width: fit-content;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    width: 50vw;
 }
 
 .header__title {
@@ -20,9 +16,14 @@ body {
     align-items: center;
 }
 
+.header__name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .header__photo {
     padding-top: .5rem;
-    width: 10vmin;
+    height: 10rem;
 }
 
 .code {
